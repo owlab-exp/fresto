@@ -1,16 +1,17 @@
-<project name="Sample Web Application" default="all" basedir=".">
+<project name="My JPetStore" default="dist" basedir=".">
 <!-- Define the properties used by the build -->
-<property name="app.name"      value="fresto-samapp1"/>
-<property name="fresto.home"	value="/working/devel/fresto/fresto-fresto1"/>
+<property name="app.name"      value="jpetstore"/>
 <property name="build.home"    value="${basedir}/build"/>
 <property name="dist.home"     value="${basedir}/dist"/>
+<property name="docs.home"     value="${basedir}/docs"/>
+<property name="lib.home"     value="${basedir}/lib"/>
+<property name="setup.home"     value="${basedir}/setup"/>
 <property name="src.home"      value="${basedir}/src"/>
+<property name="test.home"      value="${basedir}/test"/>
 <property name="web.home"      value="${basedir}/web"/>
-<property name="web.lib.home"      value="${web.home}/WEB-INF/lib"/>
 <property name="tcserver.home"      value="/working/servers/tomcat7"/>
+
 <property name="lib-monitor.home"     value="${basedir}/lib-monitor"/>
-<!-- following libraries are note included in distribution package -->
-<property name="lib-tc.home"     value="${basedir}/lib-tc"/>
 
 <target name="help">
 	<echo>You can use the following targets:</echo>
@@ -28,7 +29,6 @@
 
 <!-- Define the CLASSPATH -->
 <path id="compile.classpath">
-	<!--
 	<fileset dir="${tcserver.home}/bin">
 		<include name="*.jar"/>
 	</fileset>
@@ -36,25 +36,19 @@
 		<include name="*.jar"/>
 	</fileset>
 	<pathelement location="${tcserver.home}/lib"/>
-	-->
-	<fileset dir="${lib-tc.home}">
-		<include name="*.jar"/>
-	</fileset>
-	<fileset dir="${web.lib.home}">
+	<fileset dir="${lib.home}">
 		<include name="*.jar"/>
 	</fileset>
 </path>
 
-<target name="all" depends="build.fresto,clean,git-pull,compile,dist,deploy" description="Clean work dirs, then compile create a WAR, and deploy"/>
+<target name="all" depends="clean,compile,dist,deploy" description="Clean work dirs, then compile create a WAR, and deploy"/>
 
 <target name="clean" description="Delete old build and dist directories">
 	<delete dir="${build.home}"/>
 	<delete dir="${dist.home}"/>
-	<delete dir="${lib-monitor.home}"/>
 </target>
 
 <target name="prepare" depends="clean" description="Create working dirs and copy static files to work dir">
-	<mkdir  dir="${lib-monitor.home}"/>
 	<mkdir  dir="${dist.home}"/>
 	<mkdir  dir="${build.home}/WEB-INF/classes"/>
 	<mkdir  dir="${build.home}/WEB-INF/lib"/>
@@ -64,26 +58,18 @@
 	</copy>
 </target>
 
-<target name="build.fresto" depends="prepare">
-	<ant antfile="${fresto.home}/build.xml" target="deploy" dir="${fresto.home}" inheritAll="false"/>
-</target>
-
-<target name="git-pull">
-	<git command="pull" dir="${basedir}"/> 
-</target> 
-
-<target name="compile" depends="prepare,git-pull" description="Compile Java sources and copy to WEB-INF/classes dir">
-	<javac srcdir="${src.home}" destdir="${build.home}/WEB-INF/classes" debug="true" debuglevel="lines, vars, source">
+<target name="compile" depends="prepare" description="Compile Java sources and copy to WEB-INF/classes dir">
+	<javac srcdir="${src.home}/java" destdir="${build.home}/WEB-INF/classes">
 		<classpath refid="compile.classpath"/>
 	</javac>
 	<copy  todir="${build.home}/WEB-INF/classes">
-		<fileset dir="${src.home}" excludes="**/*.java"/>
+		<fileset dir="${src.home}/java" excludes="**/*.java"/>
 	</copy>
 </target>
 
 <target name="dist" depends="compile" description="Create WAR file for binary distribution">
 	<copy todir="${build.home}/WEB-INF/lib">
-		<fileset dir="${web.lib.home}"/>
+		<fileset dir="${lib.home}"/>
 	</copy>
 	<!-- for monitoring -->
 	<copy todir="${build.home}/WEB-INF/lib">
@@ -97,19 +83,5 @@
 		<file file="${dist.home}/${app.name}.war"/>
 	</copy>
 </target>
-
-
-<macrodef name = "git"> 
-	<attribute name = "command" /> 
-	<attribute name = "dir" default = "" /> 
-	<element name = "args" optional = "true" /> 
-	<sequential> 
-		<echo message = "git @{command}" /> 
-		<exec executable = "git" dir = "@{dir}"> 
-			<arg value = "@{command}" /> 
-			<args/> 
-		</exec> 
-	</sequential> 
-</macrodef>
 
 </project> 
