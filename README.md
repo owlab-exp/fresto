@@ -1,4 +1,4 @@
 fresto
 ======
 
-Application Performance Monitoring and Analytics
+A Platfom for Application Performance Monitoring and Analytics.
