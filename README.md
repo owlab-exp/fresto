@@ -9,18 +9,8 @@ Those repositories are currently following:
 
 
 * https://github.com/owlab/fresto-aum.git
-
-
-https://github.com/owlab/fresto-front.git
-
-
-https://github.com/owlab/fresto-ui.git
-
-
-https://github.com/owlab/fresto-channel.git
-
-
-https://github.com/owlab/fresto-noti.git
-
-
-https://github.com/owlab/fresto-test.git
+* https://github.com/owlab/fresto-front.git
+* https://github.com/owlab/fresto-ui.git
+* https://github.com/owlab/fresto-channel.git
+* https://github.com/owlab/fresto-noti.git
+* https://github.com/owlab/fresto-test.git
