@@ -17,8 +17,13 @@ Those repositories are currently following:
 
 Project lead
 ======
-Hun Jae Lee
+* Hun Jae Lee ([owlab](https://github.com/owlab))
 
 Core contributers
 ======
-Myung Woon Oh [(@apexsoft)]
+* Myung Woon Oh ([hanmomhanda](https://github.com/hanmomhanda))
+* Ji Ho Kim ([go2zo](https://github.com/go2zo))
+* Young Jun Kim ([yjkim011](https://github.com/yjkim011))
+* In Young Kang ([tomikg](https://github.com/tomikg))
+* Jae YOung Jeon ([naerin](https://github.com/naerin))
+* Yong Jun Choi ([skehahffk](https://github.com/skehahffk))
