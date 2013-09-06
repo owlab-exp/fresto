@@ -8,7 +8,7 @@ there are several interim repositories and all of those should be combined to ge
 Those repositories are currently following:
 
 
-https://github.com/owlab/fresto-aum.git
+* https://github.com/owlab/fresto-aum.git
 
 
 https://github.com/owlab/fresto-front.git
