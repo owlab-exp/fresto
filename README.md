@@ -14,3 +14,11 @@ Those repositories are currently following:
 * https://github.com/owlab/fresto-channel.git
 * https://github.com/owlab/fresto-noti.git
 * https://github.com/owlab/fresto-test.git
+
+Project lead
+======
+Hun Jae Lee
+
+Core contributers
+======
+Myung Woon Oh [(@apexsoft)]
