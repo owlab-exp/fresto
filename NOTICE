@@ -1,0 +1,33 @@
+========================================================================
+NOTICE
+
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR 
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, 
+EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+This product uses software below,
+- <Software/Project/Library Name(s)>, <developed and copyrighted by>
+- <Akka, Play Framework>, <Typesafe Inc. (http://www.typesafe.com)>
+- <AspectJ>, <AspectJ Contributors (http://eclipse.org/aspectj/)>
+- <d3.js>, <Michael Bostock (http://bost.ocks.org/mike/)>
+- <Dfs-Datastore>, <BackType, Inc. (http://www.backtype.com/)>
+- <ElephantDB>, <BackType, Inc. (http://www.backtype.com/)>
+- <Esper>, <Esper contributors & EsperTech Inc. (http://esper.codehaus.org/)>
+- <Hadoop, Thrift, Zookeeper>, <The Apache Software Foundation (http://www.apache.org/)>
+- <JCascalog>, <Nathan Marz. (http://www.cascalog.org/)>
+- <jQuery> , <jQuery Foundation, Inc. and other contributors (http://jquery.com/)>
+- <OrientDB>, <Orient Technologies (http://www.orientechnologies.com/)>
+- <Perf4J>, <perf4j.org (http://perf4j.codehaus.org/)>
+- <Slf4J>, <QOS.ch (http://www.qos.ch/)>
+- <Storm>, <Nathan Marz. (http://storm-project.net/)>
+- <toastr>, <Hans Fjällemark  & John Papa (https://github.com/CodeSeven/toastr)>
+- <ZeroMQ>, <iMatix Corporation and Contributors. (http://zeromq.org/)>
