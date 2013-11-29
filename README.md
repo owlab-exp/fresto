@@ -2,18 +2,20 @@ fresto
 ======
 
 Fresto is a platform for application performance monitoring and analytics.
-This repository is for main monitoring application development. However this can be empty for a while. Because of distributed development nature, 
-there are several interim repositories and all of those should be combined to get a working system.
+This repository is just a starting place and maintains no codes. Actual implementation is currently maintained on following repositories.
 
-Currently the interim repositories are following:
-
-
-* https://github.com/owlab/fresto-aum.git
+* https://github.com/owlab/fresto-aop.git
 * https://github.com/owlab/fresto-front.git
-* https://github.com/owlab/fresto-ui.git
 * https://github.com/owlab/fresto-channel.git
+* https://github.com/owlab/fresto-datastore.git
+
+For notification implementation exmaple:
+
 * https://github.com/owlab/fresto-noti.git
-* https://github.com/owlab/fresto-test.git
+
+Fresto Installation
+======
+Please visit [Installation Guide](https://github.com/owlab/fresto/wiki/Installation-Guide)
 
 Project lead
 ======
