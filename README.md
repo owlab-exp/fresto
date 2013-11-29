@@ -13,7 +13,7 @@ For notification implementation exmaple:
 
 * https://github.com/owlab/fresto-noti.git
 
-Deployment of Fresto
+Installation
 ======
 Please visit the [Installation Guide](https://github.com/owlab/fresto/wiki/Installation-Guide) wiki.
 
