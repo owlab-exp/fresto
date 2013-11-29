@@ -13,33 +13,4 @@
 
 ---
 
-### 환경 개요
-
-어쩌구
-
-
-### Fresto Architecture
-
-저쩌구
-
-
-### Play Framework 설치
-
-어쩌구
-
-### Deploy Fresto to Play
-
-저쩌구
-
-### Cassandra 설치
-
-어쩌구
-
-### AUM 설치 및 구동
-
-저쩌구
-
-### Fresto DashBoard 확인
-
-어쩌구
-
+작성 예정
