@@ -1,4 +1,4 @@
-fresto
+Introduction
 ======
 
 Fresto is a platform for application performance monitoring and analytics.
@@ -13,9 +13,9 @@ For notification implementation exmaple:
 
 * https://github.com/owlab/fresto-noti.git
 
-Fresto Installation
+Deployment of Fresto
 ======
-Please visit [Installation Guide](https://github.com/owlab/fresto/wiki/Installation-Guide)
+Please visit the [Installation Guide](https://github.com/owlab/fresto/wiki/Installation-Guide) wiki.
 
 Project lead
 ======
