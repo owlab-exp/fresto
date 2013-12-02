@@ -18,7 +18,7 @@ Installation
 Please visit the [Installation Guide](https://github.com/owlab/fresto/wiki/Installation-Guide) wiki.
 
 Any Question
-=====
+======
 Please join [this google group](https://groups.google.com/forum/#!forum/opensourceapm).
 
 Project lead
