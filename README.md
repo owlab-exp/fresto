@@ -2,7 +2,7 @@ Introduction
 ======
 
 Fresto is a platform for application performance monitoring and analytics.
-This repository is just a starting place and maintains no codes. Actual implementation is currently maintained on following repositories.
+This repository is just a starting place and maintains no code. Actual implementations are currently maintained in following repositories.
 
 * https://github.com/owlab/fresto-aop.git
 * https://github.com/owlab/fresto-front.git
