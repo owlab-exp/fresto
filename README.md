@@ -29,6 +29,4 @@ Core contributers
 ======
 * Myung Woon Oh ([hanmomhanda](https://github.com/hanmomhanda))
 * Ji Ho Kim ([go2zo](https://github.com/go2zo))
-* Young Jun Kim ([yjkim011](https://github.com/yjkim011))
 * Jae Young Jeon ([naerin](https://github.com/naerin))
-* Yong Jun Choi ([skehahffk](https://github.com/skehahffk))
